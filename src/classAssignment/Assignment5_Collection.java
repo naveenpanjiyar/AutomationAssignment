@@ -74,7 +74,12 @@ public class Assignment5_Collection {
 		// 5. Create a list of the top 5 highest-grossing movies of all time and print
 		// out the third movie on the list.
 
-		String[] moviesList = { "DON", "KGF", "PUSHPA", "HUNUMAN", "BAHUBALI" };
+		String[] moviesList = new String[5];
+		moviesList[0]="DON";
+		moviesList[1]="PUSHPA";
+		moviesList[2]="KGF";
+		moviesList[3]="DON-2";
+		moviesList[4]="HERO";
 		String movieName = moviesList[2];
 		System.out.println("\nThird movie out of top 5: " + movieName);
 	}
