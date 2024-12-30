@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Assignment5_Collection {
+public class Assignment5_CollectionArray {
 
 	public static void main(String[] args) {
 
@@ -27,14 +27,14 @@ public class Assignment5_Collection {
 		// and print out its size.
 
 		Set<String> touristLocation = new HashSet<String>();
-		touristLocation.add("India1");
-		touristLocation.add("India2");
-		touristLocation.add("India3");
-		touristLocation.add("India4");
-		touristLocation.add("India5");
-		touristLocation.add("India6");
-		touristLocation.add("India7");
-		touristLocation.add("India8");
+		touristLocation.add("Tajmahal");
+		touristLocation.add("Gateway of India");
+		touristLocation.add("Ladakh");
+		touristLocation.add("Varanasi");
+		touristLocation.add("Darjeeling");
+		touristLocation.add("Puducherry");
+		touristLocation.add("Kashmir");
+		touristLocation.add("Rajasthan");
 		touristLocation.add("India9");
 		touristLocation.add("India10");
 		System.out.println("\nSize of visited tourist in the world : " + touristLocation.size());
